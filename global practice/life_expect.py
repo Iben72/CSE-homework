@@ -91,7 +91,7 @@ with open(r"C:\Users\HP\Documents\CSE homework\global practice\life-expectancy1.
             country_high = max(chosen_country_data, key=lambda r: r[3])
             avg_for_country = country_total / len(chosen_country_data)
 
-            print(f"\nLife Expectancy Stats for {country_low[0]}:")
+            print(f"\nLife Expectancy Statistics for {country_low[0]}:")
             print(f"  Average: {avg_for_country:.2f}")
             print(f"  Lowest: {country_low[3]:.2f} in {country_low[2]}")
             print(f"  Highest: {country_high[3]:.2f} in {country_high[2]}")
