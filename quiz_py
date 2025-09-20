@@ -1,0 +1,120 @@
+print(
+"You started on an adventure to the woods with your bicycle. "
+"Halfway into your destination, you encountered an unexpected guest: "
+"a huge bear."
+)
+
+scene1 = input("Would you RUN away or STAND still? ").strip().lower()
+
+if scene1 == "run":
+   print(
+"\nYou quickly run with all your strength and eventually arrive at "
+"a lake infested with hungry-looking crocodiles."
+)
+
+
+scene2 = input("Would you DIVE into the lake or PUSH back? ").strip().lower()
+
+if scene2 == "dive":
+    print(
+        "\nYou dive into the lake and soon discover that the crocodiles "
+        "are rather friendly to you, but the water is too cold to endure."
+    )
+
+    scene3 = input("Would you ACCEPT the crocodile friendship or RESIST it? ").strip().lower()
+
+    if scene3 == "accept":
+        print(
+            "\nYou accept the friendship in fear of the consequence of not accepting, "
+            "and you are constantly looking for a way of escape."
+        )
+    elif scene3 == "resist":
+        print(
+            "\nYou resign to fate and resist the crocodile friendship advances. "
+            "With your eyes closed, you take your last breath."
+        )
+    else:
+        print("\nYou become frozen in the unbearable ice-laden lake.")
+
+elif scene2 == "push back":
+    print(
+        "\nYou push back and find a narrow trail leading to a hidden cave. "
+        "Inside, you find shelter and begin to warm up."
+    )
+else:
+    print("\nConfused and indecisive, you slip and fall into the lake.")
+
+
+if scene1 == "stand still":
+    print("\nYou stand still as the bear sniffs around. To your surprise, it turns and walks away. "
+         "You continue your journey, both shaken and amazed.")
+
+else:
+    print("\nFrozen by indecision, the bear approaches and you slowly back away into the woods.")
+
+    
+
+
+
+
+
+
+
+
+
+
+transport = input("what is your transport mode for the adventure? ")
+
+first_encounter = input("what would be your reaction of you meet a traffick jam? ")
+
+second_encounter = input ("what would be your next reaction meeting collapse bridge? ")
+
+third_encounter = input("what if you run out of fuel? ")
+
+transport = "suv"
+
+if transport.upper() == "suv":
+    print("suv")
+
+elif first_encounter.upper() == "frustration":
+    print("traffick jam")
+
+elif second_encounter.upper() == "cry":
+    print("collapse bridge")
+
+elif third_encounter.upper() == "end adventure":
+    print("out of fuel")
+
+else:
+    print("jolly ride")
+
+
+
+
+
+first_integer = int(input("what is your first number? "))
+
+second_integer = int(input("what is your second integer? "))
+
+if first_integer > second_integer:
+    print("the first number is greater")
+else:
+    print("the first number is not greater")
+
+if first_integer == second_integer:
+    print("the numbers are equal")
+else:
+    print("the numbers are not equal")
+
+if second_integer > first_integer:
+    print("the second number is greater")
+else:
+    print("the second number is not greater")
+
+
+animal = input("what is your favourte animal? ")
+
+if animal.lower() == "lion":
+    print("that is my favourite too")
+else:
+    print("that is not my favourite")

@@ -1,0 +1,4 @@
+with open("datalife.csv) as life_numbers:
+    years = []
+    life_expectancies = []
+    data = []

@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}"
+
+            
+        }
+    ]
+}
+{
+    "key": "f5",
+    "command": "workbench.action.debug.start",
+    "args": {
+        "configuration": "Python: Current File"
+    }
+}
+
